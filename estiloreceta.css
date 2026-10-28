@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-image: url("../imagenes/fondo-cocina.png");
+  background-repeat: repeat;
+  background-size: 657px 229px;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+header,
+article,
+footer {
+  background-color: white;
+  border: 2px solid #777777;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px #cccccc;
+}
+
+header {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #55764a;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 5px;
+}
+
+nav a,
+a {
+  color: #9b4f35;
+}
+
+nav a {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #f1e5d2;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+article {
+  margin: 15px 0;
+  padding: 15px;
+}
+
+article a {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  border: 1px solid #777777;
+  text-align: left;
+}
+
+th {
+  background-color: #e4eddb;
+}
+
+img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  color: #555555;
+}
